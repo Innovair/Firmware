@@ -20,9 +20,12 @@ then
 	param set PWM_MAX 1950
 	param set PWM_MIN 1075
 	param set PWM_RATE 400
+
+	# Tell EKF to accept vision pose estmimate
+	param set EKF2_AID_MASK 25
 fi
 
-# 
+#
 # Parameters set on prototype setup
 #
 
